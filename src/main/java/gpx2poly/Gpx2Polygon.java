@@ -1,26 +1,26 @@
-package gpx2gpoly;
+package gpx2poly;
 
 import java.util.List;
 
 import com.oschrenk.gis.formats.gpx.Trackpoint;
 
 /**
- * The Class Gpx2GPolygon.
+ * The Class Gpx2Polygon.
  *
  * @author Oliver Schrenk <oliver.schrenk@gmail.com>
  */
-public class Gpx2GPolygon {
+public class Gpx2Polygon {
 
 	/** The track points. */
 	private final List<Trackpoint> trackPoints;
 
 	/**
-	 * Instantiates a new gpx2 g polygon.
+	 * Instantiates a new gpx2polygon.
 	 *
 	 * @param trackPoints
 	 *            the track points
 	 */
-	public Gpx2GPolygon(final List<Trackpoint> trackPoints) {
+	public Gpx2Polygon(final List<Trackpoint> trackPoints) {
 		this.trackPoints = trackPoints;
 	}
 

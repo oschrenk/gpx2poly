@@ -1,6 +1,6 @@
-package gpx2gpoly.ui.cmd;
+package gpx2poly.ui.cmd;
 
-import gpx2gpoly.Gpx2GPolygon;
+import gpx2poly.Gpx2Polygon;
 
 import java.io.FileNotFoundException;
 
@@ -31,9 +31,9 @@ public class CommandLine {
 			System.err.println(e);
 			return;
 		}
-		Gpx2GPolygon conversion;
+		Gpx2Polygon conversion;
 		try {
-			conversion = new Gpx2GPolygon(GpxFactory.fromFile(
+			conversion = new Gpx2Polygon(GpxFactory.fromFile(
 					parsedArguments.path()).getTrackpoints());
 			System.out.println(conversion.process());
 

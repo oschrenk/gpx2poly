@@ -1,4 +1,4 @@
-package gpx2gpoly.ui.cmd;
+package gpx2poly.ui.cmd;
 
 import java.io.File;
 
@@ -11,7 +11,7 @@ import uk.co.flamingpenguin.jewel.cli.Unparsed;
  * @author Oliver Schrenk <oliver.schrenk@gmail.com>
  *
  */
-@CommandLineInterface(application = "gpx2gpoly")
+@CommandLineInterface(application = "gpx2poly")
 public interface StartupArguments {
 
 	/**

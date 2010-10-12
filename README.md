@@ -1,7 +1,7 @@
 # README #
 
-	git clone git@github.com:oschrenk/gpx2gpoly.git
-	cd gpx2gpoly
+	git clone git@github.com:oschrenk/gpx2poly.git
+	cd gpx2poly
 	mvn clean package
-	chmod u+x gpx2gpoly
-	./gpx2gpoly path/to/file.gpx
+	chmod u+x gpx2poly
+	./gpx2poly path/to/file.gpx
